@@ -1,0 +1,4 @@
+Exercise(s) `1a` will be presented by **Erik Erikson**
+Exercise(s) `1b` will be presented by **Anders Andersson**
+Exercise(s) `2a-b` will be presented by **Börje Börjeson**
+Exercise(s) `2c` will be presented by **Karl Karlson**
