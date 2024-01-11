@@ -55,7 +55,7 @@ def main():
     outfile = "presentations_" + infile + '.md'
     with open(outfile, 'w', encoding="utf-8") as f:
         for ex, stu in sorted(assignPres(exercises,students).items()):
-            f.write(f"- Exercise(s) `{ex}` will be presented by **{stu}**")
+            f.write(f"- Exercise(s) `{ex}` will be presented by **{stu}**\n")
 
     print("Done!")
 
