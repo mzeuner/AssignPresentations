@@ -20,7 +20,6 @@ def assignPres (exercises,students):
     presDict = {}
     for ex in exercises:
         students.sort(key = lambda x: x.score(ex))
-        # need side effect depending on ex, can this be avoided?
         presDict[ex] = students.pop()
     return presDict
 
@@ -37,7 +36,7 @@ def makeExercises(df):
     exercises = list(df)
     del exercises[0:2]
 
-    # put hardest ex. first and remove unsolved ones
+    # put hardest ex. first
     exercises.sort(key=lambda ex: sum(df[ex]))
     return exercises
 
